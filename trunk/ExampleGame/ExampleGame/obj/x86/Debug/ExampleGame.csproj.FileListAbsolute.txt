@@ -1,0 +1,11 @@
+D:\Projects\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Projects\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\ExampleGame.exe
+D:\Projects\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\ExampleGame.pdb
+D:\Projects\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Perplexity.dll
+D:\Projects\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Perplexity.pdb
+D:\Projects\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ExampleGame.exe
+D:\Projects\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ExampleGame.pdb
+D:\Projects\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\Images\ball.xnb
+D:\Projects\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\Images\DiceSheet.xnb
+D:\Projects\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\Images\FightSheet.xnb

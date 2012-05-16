@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perplexity", "Perplexity\Perplexity.csproj", "{19B23D8B-B2EB-4A87-AD0D-5A211E91E989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleGame", "ExampleGame\ExampleGame\ExampleGame.csproj", "{AC2D8DA4-E857-4A49-9CE0-7590E9AB9C0F}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ExampleGameContent", "ExampleGame\ExampleGameContent\ExampleGameContent.contentproj", "{4F4BF534-3ABD-48AD-A2BD-3DC13A3E3B92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B23D8B-B2EB-4A87-AD0D-5A211E91E989}.Debug|x86.ActiveCfg = Debug|x86
+		{19B23D8B-B2EB-4A87-AD0D-5A211E91E989}.Debug|x86.Build.0 = Debug|x86
+		{19B23D8B-B2EB-4A87-AD0D-5A211E91E989}.Release|x86.ActiveCfg = Release|x86
+		{19B23D8B-B2EB-4A87-AD0D-5A211E91E989}.Release|x86.Build.0 = Release|x86
+		{AC2D8DA4-E857-4A49-9CE0-7590E9AB9C0F}.Debug|x86.ActiveCfg = Debug|x86
+		{AC2D8DA4-E857-4A49-9CE0-7590E9AB9C0F}.Debug|x86.Build.0 = Debug|x86
+		{AC2D8DA4-E857-4A49-9CE0-7590E9AB9C0F}.Release|x86.ActiveCfg = Release|x86
+		{AC2D8DA4-E857-4A49-9CE0-7590E9AB9C0F}.Release|x86.Build.0 = Release|x86
+		{4F4BF534-3ABD-48AD-A2BD-3DC13A3E3B92}.Debug|x86.ActiveCfg = Debug|x86
+		{4F4BF534-3ABD-48AD-A2BD-3DC13A3E3B92}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
