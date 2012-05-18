@@ -1,6 +1,0 @@
-D:\Projects\Perplexity\Perplexity\bin\x86\Debug\Perplexity.dll
-D:\Projects\Perplexity\Perplexity\bin\x86\Debug\Perplexity.pdb
-D:\Projects\Perplexity\Perplexity\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Projects\Perplexity\Perplexity\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-D:\Projects\Perplexity\Perplexity\obj\x86\Debug\Perplexity.dll
-D:\Projects\Perplexity\Perplexity\obj\x86\Debug\Perplexity.pdb
