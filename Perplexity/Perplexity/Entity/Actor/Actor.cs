@@ -10,6 +10,8 @@ namespace Perplexity.Entity
 
         private TargetCamera camera;
 
+        public Rectangle Source { get { return source; } set { source = value; } }
+
         public Actor(Texture2D texture, Vector2 position)
             : base(texture, position)
         {

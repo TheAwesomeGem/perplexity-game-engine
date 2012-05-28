@@ -11,13 +11,13 @@
       <Time>2012-05-27T00:34:52.453125+06:00</Time>
     </Item>
     <Item>
-      <Source>background.jpg</Source>
-      <Name>background</Name>
+      <Source>playersheet.png</Source>
+      <Name>playersheet</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2012-05-28T10:30:25.46875+06:00</Time>
+      <Output>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\playersheet.xnb</Output>
+      <Time>2012-05-28T11:27:44.65625+06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

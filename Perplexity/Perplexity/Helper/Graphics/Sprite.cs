@@ -32,7 +32,6 @@ namespace Perplexity.Helper
             this.bounds = new Rectangle((int)position.X, (int)position.Y,
                                         (int)texture.Width, (int)texture.Height);
 
-            this.source = new Rectangle(0, 0, (int)texture.Width, (int)texture.Height);
         }
         public virtual void Draw(SpriteBatch spriteBatch)
         {
