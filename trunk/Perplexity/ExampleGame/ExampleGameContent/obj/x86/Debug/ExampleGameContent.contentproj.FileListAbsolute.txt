@@ -1,1 +1,2 @@
 D:\Project\Perplexity\ExampleGame\ExampleGameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGameContent\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -27,7 +27,7 @@ namespace Perplexity.Helper
             this.source = new Rectangle(0, 0, (int)texture.Width, (int)texture.Height);
         }
 
-        public virtual void Update()
+        public virtual void Update(GameTime gameTime)
         {
             this.bounds = new Rectangle((int)position.X, (int)position.Y,
                                         (int)texture.Width, (int)texture.Height);

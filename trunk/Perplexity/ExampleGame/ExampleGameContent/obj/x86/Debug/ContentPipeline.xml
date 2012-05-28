@@ -7,8 +7,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Project\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\player.xnb</Output>
+      <Output>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\player.xnb</Output>
       <Time>2012-05-27T00:34:52.453125+06:00</Time>
+    </Item>
+    <Item>
+      <Source>background.jpg</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2012-05-28T10:30:25.46875+06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -16,10 +25,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\Project\Perplexity\ExampleGame\ExampleGameContent\</RootDirectory>
-      <LoggerRootDirectory>D:\Project\Perplexity\ExampleGame\ExampleGame\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Project\Perplexity\ExampleGame\ExampleGameContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Project\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

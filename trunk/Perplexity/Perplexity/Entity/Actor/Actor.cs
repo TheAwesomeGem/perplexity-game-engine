@@ -1,44 +1,41 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Perplexity.Component;
 
 namespace Perplexity.Entity
 {
     public class Actor : Entity
     {
-        public enum State
-        {
-            Alive,
-            Hidden,
-            Dead
-        }
-
         public Vector2 Velocity;
-        public State CurrentState { get; set; }
+
+        private TargetCamera camera;
 
         public Actor(Texture2D texture, Vector2 position)
             : base(texture, position)
         {
             Velocity = Vector2.Zero;
-            CurrentState = State.Alive;
+
+            camera = new TargetCamera(position);
         }
 
-        public override void Update()
+        public override void Update(GameTime gameTime)
         {
-            if (CurrentState == State.Alive || CurrentState == State.Hidden)
-            {
-                position += Velocity;
+            camera.target = position;
+            camera.Update(gameTime);
 
-                Velocity = Vector2.Zero;
+            position += Velocity;
 
-                base.Update();
-            }
+            Velocity = Vector2.Zero;
+
+            base.Update(gameTime);
         }
         public override void Draw(SpriteBatch spriteBatch)
         {
-            if (CurrentState == State.Alive)
-            {
-                base.Draw(spriteBatch);
-            }
+            spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, null, null, null, null, camera.Transform);
+
+            base.Draw(spriteBatch);
+
+            spriteBatch.End();
         }
     }
 }

@@ -13,11 +13,15 @@ namespace Perplexity.Entity
         {
             if (!entities.ContainsKey(name))
                 entities.Add(name, entity);
+            else
+                throw new Exception("The entity " + name + " already exist on the memory.");
         }
         public static void RemoveEntity(string name)
         {
             if (entities.ContainsKey(name))
                 entities.Remove(name);
+            else
+                throw new Exception("Invalid entity name.");
         }
         public static T GetEntity<T>(string name)
         {
@@ -25,16 +29,18 @@ namespace Perplexity.Entity
 
             if (entities.ContainsKey(name))
                 entities.TryGetValue(name, out value);
+            else
+                throw new Exception("Invalid entity name.");
 
             return (T)(object)value;
         }
 
-        public static void Update()
+        public static void Update(GameTime gameTime)
         {
             foreach (KeyValuePair<string, Entity> entity in entities)
             {
                 Entity curEntity = entity.Value;
-                curEntity.Update();
+                curEntity.Update(gameTime);
             }
         }
         public static void Draw(SpriteBatch spriteBatch)
