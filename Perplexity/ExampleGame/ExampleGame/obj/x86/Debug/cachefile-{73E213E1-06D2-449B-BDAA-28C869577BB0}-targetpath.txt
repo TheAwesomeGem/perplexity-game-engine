@@ -1,1 +1,2 @@
 Content\player.xnb
+Content\background.xnb

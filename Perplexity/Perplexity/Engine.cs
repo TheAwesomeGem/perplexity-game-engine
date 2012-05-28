@@ -53,7 +53,7 @@ namespace Perplexity
 
         protected override void Update(GameTime gameTime)
         {
-            EntityManager.Update();
+            EntityManager.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -61,11 +61,7 @@ namespace Perplexity
         {
             device.Clear(ScreenColor);
 
-            spriteBatch.Begin();
-
             EntityManager.Draw(spriteBatch);
-
-            spriteBatch.End();
 
             base.Draw(gameTime);
         }

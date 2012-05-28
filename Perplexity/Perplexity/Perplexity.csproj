@@ -92,15 +92,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component\Camera\Camera.cs" />
+    <Compile Include="Component\Camera\TargetCamera.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Entity\Actor\Actor.cs" />
     <Compile Include="Entity\Entity.cs" />
     <Compile Include="Entity\EntityManager.cs" />
+    <Compile Include="Entity\Image\Image.cs" />
     <Compile Include="Helper\Graphics\Sprite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Component\" />
+    <Folder Include="Component\Animation\" />
+    <Folder Include="Entity\Actor\Behavior\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
