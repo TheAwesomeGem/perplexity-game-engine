@@ -92,6 +92,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component\Animation\AnimationFrame.cs" />
     <Compile Include="Component\Camera\Camera.cs" />
     <Compile Include="Component\Camera\TargetCamera.cs" />
     <Compile Include="Engine.cs" />
@@ -103,7 +104,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Component\Animation\" />
     <Folder Include="Entity\Actor\Behavior\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
