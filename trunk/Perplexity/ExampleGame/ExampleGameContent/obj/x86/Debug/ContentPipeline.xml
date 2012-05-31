@@ -19,6 +19,15 @@
       <Output>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\playersheet.xnb</Output>
       <Time>2012-05-28T11:27:44.65625+06:00</Time>
     </Item>
+    <Item>
+      <Source>background.jpg</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2012-05-28T15:25:26.734375+06:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

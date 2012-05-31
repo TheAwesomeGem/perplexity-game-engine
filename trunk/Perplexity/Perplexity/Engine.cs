@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Perplexity.Entity;
+using Perplexity.Component;
 
 namespace Perplexity
 {
@@ -18,6 +19,7 @@ namespace Perplexity
         protected string ContentDir;
         protected Color ScreenColor;
         protected string ScreenTitle;
+        protected Camera Camera;
 
         public static int ScreenWidth;
         public static int ScreenHeight;
@@ -42,6 +44,8 @@ namespace Perplexity
             graphics.ApplyChanges();
 
             Window.Title = ScreenTitle;
+
+            Camera = new Camera();
             
             base.Initialize();
         }
@@ -53,6 +57,7 @@ namespace Perplexity
 
         protected override void Update(GameTime gameTime)
         {
+            Camera.Update(gameTime);
             EntityManager.Update(gameTime);
 
             base.Update(gameTime);
@@ -61,7 +66,9 @@ namespace Perplexity
         {
             device.Clear(ScreenColor);
 
+            spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, null, null, null, null, Camera.View);
             EntityManager.Draw(spriteBatch);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

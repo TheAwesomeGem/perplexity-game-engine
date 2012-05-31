@@ -17,3 +17,4 @@ C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\Exampl
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ExampleGame.exe
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ExampleGame.pdb
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\playersheet.xnb
+C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\background.xnb

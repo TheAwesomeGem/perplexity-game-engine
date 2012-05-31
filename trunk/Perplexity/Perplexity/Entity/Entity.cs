@@ -15,8 +15,8 @@ namespace Perplexity.Entity
         }
         public State CurrentState { get; set; }
 
-        public Entity(Texture2D texture, Vector2 position)
-            : base(texture, position)
+        public Entity(Texture2D texture, Vector2 position, float layer)
+            : base(texture, position, 0f, 1f, layer)
         {
             CurrentState = State.Active;
         }
