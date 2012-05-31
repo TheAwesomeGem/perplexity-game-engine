@@ -5,26 +5,25 @@ namespace Perplexity.Component
 {
     public class Camera
     {
-        protected Vector2 position;
-        protected float speed;
-        protected float rotation;
-        protected Vector2 origin;
-        protected float scale;
-        protected Vector2 centerScreen;
-        protected Matrix transform;
+        private float rotation;
+        private Vector2 origin;
+        private float scale;
+        private Vector2 centerScreen;
+        private Matrix view;   
+        private Vector2 position;
 
-        public Matrix Transform { get { return transform; } }
+        public Matrix View { get { return view; } }
 
         public Camera()
         {
-            centerScreen = new Vector2(Engine.ScreenWidth / 2, Engine.ScreenHeight / 2);
+            position = Vector2.Zero;
+            centerScreen = new Vector2(Engine.ScreenWidth / 2f, Engine.ScreenHeight / 2f);
             scale = 1;
-            speed = 1.25f;
         }
 
-        public virtual void Update(GameTime gameTime)
+        public void Update(GameTime gameTime)
         {
-            transform = Matrix.Identity *
+            view = Matrix.Identity *
                     Matrix.CreateTranslation(-position.X, -position.Y, 0) *
                     Matrix.CreateRotationZ(rotation) *
                     Matrix.CreateTranslation(origin.X, origin.Y, 0) *
@@ -32,16 +31,13 @@ namespace Perplexity.Component
 
             origin = centerScreen / scale;
         }
-
-        public bool IsInView(Vector2 position, Texture2D texture)
+        public void Transform(Vector2 position)
         {
-            if ((position.X + texture.Width) < (position.X - origin.X) || (position.X) > (position.X + origin.X))
-                return false;
-
-            if ((position.Y + texture.Height) < (position.Y - origin.Y) || (position.Y) > (position.Y + origin.Y))
-                return false;
-
-            return true;
+            this.position = position;
+        }
+        public void Translate(Vector2 newPosition)
+        {
+            this.position += newPosition;
         }
     }
 }

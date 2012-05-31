@@ -94,12 +94,10 @@
   <ItemGroup>
     <Compile Include="Component\Animation\AnimationFrame.cs" />
     <Compile Include="Component\Camera\Camera.cs" />
-    <Compile Include="Component\Camera\TargetCamera.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Entity\Actor\Actor.cs" />
     <Compile Include="Entity\Entity.cs" />
     <Compile Include="Entity\EntityManager.cs" />
-    <Compile Include="Entity\Image\Image.cs" />
     <Compile Include="Helper\Graphics\Sprite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
