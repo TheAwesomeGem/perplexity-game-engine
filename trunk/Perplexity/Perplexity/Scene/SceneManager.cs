@@ -23,7 +23,7 @@ namespace Perplexity
             else
                 throw new Exception("Invalid scene name.");
         }
-        public static T GetScene<T>(string name)
+        public static Scene GetScene(string name)
         {
             Scene value = null;
 
@@ -32,7 +32,7 @@ namespace Perplexity
             else
                 throw new Exception("Invalid scene name.");
 
-            return (T)(object)value;
+            return value;
         }
         public static void Update(GameTime gameTime)
         {

@@ -14,12 +14,13 @@ namespace ExampleGame
             ScreenTitle = "Example Game";
 
             base.Initialize();
-
-            SceneManager.AddScene("Scene1", new Scene1(this));
         }
         protected override void LoadContent()
         {
             base.LoadContent();
+
+            SceneManager.AddScene("Scene1", new Scene1(this));
+            SceneManager.GetScene("Scene1").Show();
         }
     }
 }
