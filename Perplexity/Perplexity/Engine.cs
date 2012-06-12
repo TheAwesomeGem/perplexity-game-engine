@@ -58,7 +58,7 @@ namespace Perplexity
         protected override void Update(GameTime gameTime)
         {
             Camera.Update(gameTime);
-            EntityManager.Update(gameTime);
+            SceneManager.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -67,7 +67,7 @@ namespace Perplexity
             device.Clear(ScreenColor);
 
             spriteBatch.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, null, null, null, null, Camera.View);
-            EntityManager.Draw(spriteBatch);
+            SceneManager.Draw(spriteBatch);
             spriteBatch.End();
 
             base.Draw(gameTime);

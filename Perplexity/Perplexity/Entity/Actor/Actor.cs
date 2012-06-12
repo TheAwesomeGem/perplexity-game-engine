@@ -9,8 +9,8 @@ namespace Perplexity.Entity
         public Rectangle Source { get { return source; } set { source = value; } }
         public Vector2 Position { get { return position; } }
 
-        public Actor(Texture2D texture, Vector2 position, float layer)
-            : base(texture, position, layer)
+        public Actor(Scene scene, Texture2D texture, Vector2 position, float layer)
+            : base(scene, texture, position, layer)
         {
         }
 

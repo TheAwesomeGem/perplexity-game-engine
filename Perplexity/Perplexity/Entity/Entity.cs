@@ -7,6 +7,8 @@ namespace Perplexity.Entity
 {
     public abstract class Entity : Sprite 
     {
+        public Scene Scene { get; set; }
+
         public enum State
         {
             Active,
@@ -15,9 +17,10 @@ namespace Perplexity.Entity
         }
         public State CurrentState { get; set; }
 
-        public Entity(Texture2D texture, Vector2 position, float layer)
+        public Entity(Scene scene, Texture2D texture, Vector2 position, float layer)
             : base(texture, position, 0f, 1f, layer)
         {
+            Scene = scene;
             CurrentState = State.Active;
         }
 
