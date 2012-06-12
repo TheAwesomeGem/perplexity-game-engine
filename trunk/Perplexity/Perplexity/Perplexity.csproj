@@ -100,6 +100,8 @@
     <Compile Include="Entity\EntityManager.cs" />
     <Compile Include="Helper\Graphics\Sprite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scene\Scene.cs" />
+    <Compile Include="Scene\SceneManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entity\Actor\Behavior\" />

@@ -9,6 +9,8 @@ namespace Perplexity.Entity
     {
         private static Dictionary<string, Entity> entities = new Dictionary<string, Entity>();
 
+        public static Dictionary<string, Entity> Entities { get { return entities; } }
+
         public static void AddEntity(string name, Entity entity)
         {
             if (!entities.ContainsKey(name))
@@ -33,23 +35,6 @@ namespace Perplexity.Entity
                 throw new Exception("Invalid entity name.");
 
             return (T)(object)value;
-        }
-
-        public static void Update(GameTime gameTime)
-        {
-            foreach (KeyValuePair<string, Entity> entity in entities)
-            {
-                Entity curEntity = entity.Value;
-                curEntity.Update(gameTime);
-            }
-        }
-        public static void Draw(SpriteBatch spriteBatch)
-        {
-            foreach (KeyValuePair<string, Entity> entity in entities)
-            {
-                Entity curEntity = entity.Value;
-                curEntity.Draw(spriteBatch);
-            }
         }
     }
 }
