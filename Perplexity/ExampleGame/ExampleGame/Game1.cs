@@ -20,7 +20,7 @@ namespace ExampleGame
             base.LoadContent();
 
             SceneManager.AddScene("Scene1", new Scene1(this));
-            SceneManager.GetScene("Scene1").Show();
+            SceneManager.AddScene("Scene2", new Scene2(this));
         }
     }
 }

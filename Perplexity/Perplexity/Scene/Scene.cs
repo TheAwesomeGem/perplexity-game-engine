@@ -6,7 +6,7 @@ namespace Perplexity
 {
     public abstract class Scene
     {
-        private bool shown;
+        protected bool shown;
 
         public Scene()
         {
