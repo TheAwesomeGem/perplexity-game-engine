@@ -18,3 +18,14 @@ C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\Exampl
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ExampleGame.pdb
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\playersheet.xnb
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\background.xnb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ExampleGame.exe
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\obj\x86\Debug\ExampleGame.pdb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\player.xnb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\playersheet.xnb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Content\background.xnb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\ExampleGame.exe
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\ExampleGame.pdb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Perplexity.dll
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\ExampleGame\ExampleGame\bin\x86\Debug\Perplexity.pdb

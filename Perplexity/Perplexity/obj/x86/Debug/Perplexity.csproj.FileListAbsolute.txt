@@ -10,3 +10,9 @@ C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86\Debug\Perplexity.dll
 C:\Documents and Settings\Topaz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86\Debug\Perplexity.pdb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\Perplexity\bin\x86\Debug\Perplexity.dll
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\Perplexity\bin\x86\Debug\Perplexity.pdb
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86\Debug\Perplexity.dll
+C:\Users\TopAz\Desktop\Perplexity\Perplexity\Perplexity\obj\x86\Debug\Perplexity.pdb

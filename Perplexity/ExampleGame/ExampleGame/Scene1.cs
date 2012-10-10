@@ -17,11 +17,17 @@ namespace ExampleGame
             TestTimer.Fire += new NotifyHandler(TestTimer_Fire);
 
             Actor guy = new Actor(this, game.Content.Load<Texture2D>("player"), new Vector2(10, 0), 1);
+            guy.PositionChange += new NotifyHandler(guy_PositionChange);
             EntityManager.AddEntity("Guy", guy);
             Show();
         }
 
-        void TestTimer_Fire()
+        void guy_PositionChange(object obj)
+        {
+            System.Windows.Forms.MessageBox.Show("Position Changed!");
+        }
+
+        void TestTimer_Fire(object obj)
         {
             EntityManager.GetEntity<Actor>("Guy").Translate(new Vector2(30, 0));
         }
