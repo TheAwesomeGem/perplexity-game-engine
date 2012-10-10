@@ -8,6 +8,7 @@ namespace Perplexity.Entity
     public abstract class Entity : Sprite 
     {
         public Scene Scene { get; set; }
+        public event NotifyHandler Init;
 
         public enum State
         {
@@ -22,6 +23,8 @@ namespace Perplexity.Entity
         {
             Scene = scene;
             CurrentState = State.Active;
+
+            if (Init != null) Init(this);
         }
 
         public override void Update(GameTime gameTime)

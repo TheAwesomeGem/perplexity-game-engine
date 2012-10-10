@@ -36,7 +36,7 @@ namespace Perplexity.Component
                 if (timer.remaining <= 0)
                 {
                     if (timer.Fire != null)
-                        timer.Fire();
+                        timer.Fire(timer);
 
                     timer.remaining = timer.interval;
                 }

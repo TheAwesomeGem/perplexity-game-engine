@@ -9,6 +9,8 @@ namespace Perplexity.Entity
         public Rectangle Source { get { return source; } set { source = value; } }
         public Vector2 Position { get { return position; } }
 
+        public event NotifyHandler PositionChange;
+
         public Actor(Scene scene, Texture2D texture, Vector2 position, float layer)
             : base(scene, texture, position, layer)
         {
@@ -27,11 +29,15 @@ namespace Perplexity.Entity
         {
             if(CurrentState == State.Active || CurrentState == State.Hidden)
                 this.position = position;
+
+            if (PositionChange != null) PositionChange(this);
         }
         public void Translate(Vector2 newPosition)
         {
             if (CurrentState == State.Active || CurrentState == State.Hidden)
                 this.position += newPosition;
+
+            if (PositionChange != null) PositionChange(this);
         }
     }
 }

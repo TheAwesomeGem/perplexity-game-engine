@@ -1,4 +1,4 @@
 ﻿namespace Perplexity
 {
-    public delegate void NotifyHandler();
+    public delegate void NotifyHandler(object obj);
 }
