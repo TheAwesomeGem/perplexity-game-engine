@@ -97,6 +97,8 @@
     <Compile Include="Component\Timer\Timer.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Entity\Actor\Actor.cs" />
+    <Compile Include="Entity\Actor\Behavior\Behavior.cs" />
+    <Compile Include="Entity\Actor\Behavior\Bullet.cs" />
     <Compile Include="Entity\Entity.cs" />
     <Compile Include="Entity\EntityManager.cs" />
     <Compile Include="Helper\Event.cs" />
@@ -105,9 +107,7 @@
     <Compile Include="Scene\Scene.cs" />
     <Compile Include="Scene\SceneManager.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entity\Actor\Behavior\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
   <!--
