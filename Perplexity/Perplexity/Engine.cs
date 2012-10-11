@@ -23,6 +23,8 @@ namespace Perplexity
 
         public static int ScreenWidth;
         public static int ScreenHeight;
+        
+        public bool Paused;
 
         public Engine()
         {
@@ -31,6 +33,7 @@ namespace Perplexity
             ScreenHeight = 480;
             ScreenColor = Color.CornflowerBlue;
             ScreenTitle = "MyGame";
+            Paused = false;
 
             graphics = new GraphicsDeviceManager(this);
         }
@@ -54,12 +57,22 @@ namespace Perplexity
             device = graphics.GraphicsDevice;
             spriteBatch = new SpriteBatch(device);
         }
+        protected override void UnloadContent()
+        {
+            foreach (Entity.Entity entity in EntityManager.Entities.Values)
+            {
+                entity.Dispose();
+            }
+        }
 
         protected override void Update(GameTime gameTime)
         {
-            Camera.Update(gameTime);
-            SceneManager.Update(gameTime);
-            Timer.Update(gameTime);
+            if (!Paused)
+            {
+                Camera.Update(gameTime);
+                SceneManager.Update(gameTime);
+                Timer.Update(gameTime);
+            }
 
             base.Update(gameTime);
         }

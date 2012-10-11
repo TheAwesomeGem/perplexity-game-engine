@@ -13,6 +13,7 @@ namespace Perplexity.Helper
         protected Rectangle bounds;
         protected Rectangle source;
         protected float layer;
+        protected Color[] texDat;
 
         public Sprite(Texture2D texture, Vector2 position, float rotation = 0f, float scale = 1f, float layer = 0f)
         {
@@ -27,6 +28,8 @@ namespace Perplexity.Helper
                                         (int)texture.Width, (int)texture.Height);
 
             this.source = new Rectangle(0, 0, (int)texture.Width, (int)texture.Height);
+            this.texDat = new Color[texture.Width * texture.Height];
+            texture.GetData(texDat);
         }
 
         public virtual void Update(GameTime gameTime)
