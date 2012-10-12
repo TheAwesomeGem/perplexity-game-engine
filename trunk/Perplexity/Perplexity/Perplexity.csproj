@@ -97,7 +97,6 @@
     <Compile Include="Component\Timer\Timer.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Entity\Actor\Actor.cs" />
-    <Compile Include="Entity\Actor\Behavior\Behavior.cs" />
     <Compile Include="Entity\Actor\Behavior\Bullet.cs" />
     <Compile Include="Entity\Entity.cs" />
     <Compile Include="Entity\EntityManager.cs" />

@@ -8,12 +8,14 @@ namespace Perplexity.Entity
     {
         public Rectangle Source { get { return source; } set { source = value; } }
         public Vector2 Position { get { return position; } }
+        public string Behavior { get; set; }
 
         public event NotifyHandler PositionChange;
 
         public Actor(Scene scene, Texture2D texture, Vector2 position, float layer)
             : base(scene, texture, position, layer)
         {
+            Behavior = "None";
         }
 
         public override void Update(GameTime gameTime)
