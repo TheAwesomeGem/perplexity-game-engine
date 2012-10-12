@@ -39,7 +39,7 @@ namespace ExampleGame
             Actor guy = EntityManager.GetEntity<Actor>("Guy");
 
             if (Keyboard.GetState().IsKeyDown(Keys.Left))
-                TestTimer.Start(5);
+                Bullet.AddBehavior(guy);
 
             if (guy.Position.X < 0)
             {

@@ -72,6 +72,7 @@ namespace Perplexity
                 Camera.Update(gameTime);
                 SceneManager.Update(gameTime);
                 Timer.Update(gameTime);
+                Bullet.Update(gameTime);
             }
 
             base.Update(gameTime);
